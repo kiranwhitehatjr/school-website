@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atkinson Higher Secondary School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,600;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+  
+    <nav class="navbar-inverse " style="position:sticky;top:0;z-index:99999;height:70px;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle box" onclick="myFunction(this)" data-toggle="collapse"
+                data-target="#menulinks">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </button>
+            <a class="logo" href="index.html"><img height="70" width="80" src="pics/logof.png"
+                    alt="logo"></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="menulinks" style="float:right; font-size:20px;">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="#contact_1">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav> 
+    <section id="heading" class="heading col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+        <marquee class="scrollupdates" behavior="scroll" direction="left" onmouseover="this.stop();"
+            onmouseout="this.start();" data-toggle="modal" data-target="#admission">
+           
+                <p>Admission for the year 2022-23 will commence from
+                    22-01-2022 onwards</p>
+           
+        </marquee>
+
+        <div class="modal fade" id="admission">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content" >
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  
+                </div>
+                
+                <div class="modal-body">
+                  <img src="pics/admissions modal.jpg" class="img-responsive img_modal">
+                </div>
+              </div>
+            </div>
+          </div>
+        <script>
+            $(window).load(function () {
+                $('#onload').modal('show');
+            });
+        </script>
+        <div class="text" col-lg-10 col-md-10 col-sm-10 col-xs-12>
+            <h1>One of the Top schools in Vijayawada </h1>
+            <p>
+                If you are searching for the top CBSE Schools in null, then you have landed at the correct place!
+            </p>
+            <a href="" class="text-capitalize hero-btn">Visit us to know more</a>
+        </div>
+    </section>
+    <br>
+
+    <section id="contact">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7649.4033399863!2d80.58097927340242!3d16.541152104363466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35ee4faaaaaaab%3A0xcd3dfb96de4b0e8!2sATKINSON%20HIGH%20SCHOOL!5e0!3m2!1sen!2sin!4v1641795403785!5m2!1sen!2sin"
+            width="1500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+        <div class="contact_1" id="contact_1">
+
+            <a href="mailto:kunwar_virendra78@rediffmail.com?Subject=Hello">
+                <span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;<h3>kunwar_virendra78@rediffmail.com</h3>
+            </a>
+
+            <br>
+            <br>
+
+            <a href="https://www.instagram.com/atkinson_gollapudi/" target="_blank">
+                <i class="fa fa-instagram"></i>&nbsp;&nbsp;<h3>atkinson_gollapudi</h3>
+            </a>
+
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  height: 140vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(pics/thumbnail.jpg);
+  background-position: center;
+  background-size: cover;
+
+  overflow: hidden;
+}
+
+.navbar {
+
+  top: 0;
+  z-index: 99999;
+   position: sticky;
+
+}
+
+
+#contact {
+  text-align: center;
+  background: black;
+}
+
+#contact iframe {
+  width: 100%;
+}
+
+.contact_1 h3 {
+  display: inline;
+}
+
+.contact_1 a {
+  color: white;
+  text-shadow: none;
+}
+
+.box {
+
+  color: white;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(235, 217, 217);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+#menulinks {
+  flex: 1;
+  text-align: right;
+
+}
+
+#menulinks ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+
+
+}
+
+#menu a {
+  text-decoration: none;
+  color: rgb(20, 220, 177);
+  font-size: larger;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+#menulinks ul li ::after {
+  content: '';
+  width: 0%;
+  height: 3px;
+  background: orange;
+  display: block;
+  margin: auto;
+  transition: 0.4s;
+}
+
+#menulinks ul li:hover ::after {
+  width: 100%;
+}
+
+.text {
+  width: 90%;
+  color: white;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+position: relative;
+}
+
+.admission a {
+  text-decoration: none;
+}
+
+.admission p {
+  color: white;
+  font-size: 20px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+
+.text h1 {
+
+  font-size: 40px;
+}
+
+.text p {
+  margin: 10px 0 40px;
+  font-size: 15px;
+}
+
+.text a {
+  text-decoration: none;
+}
+
+.hero-btn {
+  display: inline-block;
+
+  color: white;
+  border: 1px solid white;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  border: 1px solid turquoise;
+  background: orange;
+  transition: 2s;
+}
+.scrollupdates
+{
+  color: white;
+  font-size: 18px;
+}
+.modal-content
+{
+  margin-top: 100px;
+}
+
+.img_modal
+  {
+    display: inline-block;
+  }
+.p_modal
+  {
+      margin-top: 10px;
+}
+.modal-body
+{
+    text-align: center
+}
